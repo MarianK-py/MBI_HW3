@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.22)  2 DEC 2023 18:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.22)  3 DEC 2023 18:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -423,48 +423,82 @@ Package hyperref Info: Link coloring OFF on input line 46.
 \@outlinefile=\write3
 \openout3 = `report_kravec18.out'.
 
-<nussin_1.png, id=11, 361.35pt x 153.57375pt>
+<nussin_1.png, id=35, 361.35pt x 153.57375pt>
 File: nussin_1.png Graphic file (type png)
 <use nussin_1.png>
-Package pdftex.def Info: nussin_1.png  used on input line 64.
+Package pdftex.def Info: nussin_1.png  used on input line 65.
 (pdftex.def)             Requested size: 297.20906pt x 126.31558pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 66.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
 
 
 (C:\Users\majko\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 66.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
 
 
 (C:\Users\majko\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 66
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 67
 .
 
 (C:\Users\majko\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 66--70
+Underfull \hbox (badness 10000) in paragraph at lines 67--71
 
  []
 
 [1
 
 {C:/Users/majko/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./nussin_1.p
-ng>] (report_kravec18.aux)
+ng>]
+<blast_set.png, id=53, 545.53813pt x 425.08812pt>
+File: blast_set.png Graphic file (type png)
+<use blast_set.png>
+Package pdftex.def Info: blast_set.png  used on input line 104.
+(pdftex.def)             Requested size: 382.12502pt x 297.75424pt.
+<blast_2.png, id=54, 688.5725pt x 431.11063pt>
+File: blast_2.png Graphic file (type png)
+<use blast_2.png>
+Package pdftex.def Info: blast_2.png  used on input line 110.
+(pdftex.def)             Requested size: 424.58624pt x 265.83203pt.
+ [2 <./blast_set.png>]
+<orf0.png, id=60, 369.38pt x 366.36874pt>
+File: orf0.png Graphic file (type png)
+<use orf0.png>
+Package pdftex.def Info: orf0.png  used on input line 120.
+(pdftex.def)             Requested size: 339.67029pt x 336.90121pt.
+ [3 <./blast_2.png>]
+<orf1.png, id=66, 441.14813pt x 447.17062pt>
+File: orf1.png Graphic file (type png)
+<use orf1.png>
+Package pdftex.def Info: orf1.png  used on input line 130.
+(pdftex.def)             Requested size: 424.58624pt x 430.39793pt.
+ [4 <./orf0.png>]
+<orf3.png, id=72, 485.815pt x 427.09563pt>
+File: orf3.png Graphic file (type png)
+<use orf3.png>
+Package pdftex.def Info: orf3.png  used on input line 138.
+(pdftex.def)             Requested size: 424.58624pt x 373.26459pt.
+ [5 <./orf1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 142--146
+
+ []
+
+[6 <./orf3.png>] (report_kravec18.aux)
 Package rerunfilecheck Info: File `report_kravec18.out' has not changed.
-(rerunfilecheck)             Checksum: BD9D4864C7B791B5C5EE0E525281AF2A;80.
+(rerunfilecheck)             Checksum: B58811A2D95E3BC7EF21689B66CF5616;802.
  ) 
 Here is how much of TeX's memory you used:
- 12706 strings out of 476404
- 205882 string characters out of 2789524
- 1864324 words of memory out of 3000000
- 32897 multiletter control sequences out of 15000+600000
- 518467 words of font info for 49 fonts, out of 8000000 for 9000
+ 12785 strings out of 476404
+ 206958 string characters out of 2789524
+ 1863324 words of memory out of 3000000
+ 32963 multiletter control sequences out of 15000+600000
+ 520010 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,76p,782b,449s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 75i,8n,76p,782b,462s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/majko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-sup
 er-ts1.enc}{C:/Users/majko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-sup
 er/cm-super-t1.enc}<C:/Users/majko/AppData/Local/Programs/MiKTeX/fonts/type1/pu
@@ -474,12 +508,13 @@ eX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/majko/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/majko/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/majko/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/m
-ajko/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfcc1200.pfb><C:
-/Users/majko/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000
-.pfb>
-Output written on report_kravec18.pdf (1 page, 104891 bytes).
+ajko/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><C:
+/Users/majko/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfcc1200
+.pfb><C:/Users/majko/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/
+sfrm1000.pfb>
+Output written on report_kravec18.pdf (6 pages, 1095165 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
- 22 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 130 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
+ 95 words of extra memory for PDF output out of 10000 (max. 10000000)
 

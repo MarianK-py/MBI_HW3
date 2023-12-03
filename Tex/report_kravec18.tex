@@ -54,6 +54,7 @@
 	\end{center}
 	
 	Autor: Marián Kravec
+	\section{1. RNA structure and dynamic programming.}
 	
 	\subsection{}
 	
@@ -90,5 +91,56 @@
 		\\
 		&\epsilon 
 	\end{align*}
+
+	\subsection{}
+	%TODO
 	
+	\section{2. Bioinformatics tools and databases.}
+	
+	\subsection{}
+	
+	After running Blast with in this setup:
+	
+	\centerline{\includegraphics[width=0.9\textwidth]{blast_set}}
+	
+	(As specified in assignment)
+	
+	We got these alignments:
+	
+	\centerline{\includegraphics[width=1\textwidth]{blast_2}}
+	
+	We can see that in 11 sequences we got same highest score $4894$,  in all 11 cases algorithm identified $100\%$ of input sequence and E-value is approximately $0$.
+	
+	So most likely our sequence in part of genome of bacteria called Acinetobacter Iwofii.
+	
+	\subsection{}
+	
+	Now we will look at what kind od proteins might be encoded in our sequence, when we look for open reading frame with at least 180 codons we get 4 ORFs:
+	
+	\centerline{\includegraphics[width=0.8\textwidth]{orf0}}
+	
+	First two (ORF1 and ORF2) is on direct strand while last two (ORF3 and ORF4) are on reverse strand.
+	
+	\subsection{}
+	
+	Lastly we would like to see 3D structure of found proteins. We will look at ORF1 and ORF3. We used AlphaFold2 for this task.
+	
+	Now let's look firstly at ORF1:
+	
+	\centerline{\includegraphics[width=1\textwidth]{orf1}}
+	
+	We can see that most of the structure (mostly complex parts) is colored blue which signifies pretty high accuracy, only parts with low confidence are structures connecting highly accurate complex structures. This is confirmed by "Predicted LDDT" plot where we can see most values are higher than 80 so highly accurate.
+	
+	On "Predicted aligned error" plot we can see 4 much darker squares which corresponds to 4 blue complex structure in 3D visualization. Dark cell mean that prediction error for relative positions of two those two amino acids (one from row and one from column) is low. So we can see that this protein seems to contain 4 domains.
+	
+	Now let's look at ORF3: 
+	
+	\centerline{\includegraphics[width=1\textwidth]{orf3}}
+	
+	This time we don't see any highly complicated parts. Also we can see that most of structure is yellow which indicates low confidence, so AlphaFold is not sure if this is correct structure. "Predicted LDDT" confirms it as we can see that most values are lower than 50 with one notable spike which corresponds to small blue part in 3D visualization.
+	
+	"Predicted aligned error" plot also shows that other then amino acids right next to each other in sequence we have high error which means that relative position and/or orientation of almost any two amino acids is uncertain. One more information that we can get that algorithm was not able to find any notable domains.
+	\\
+	\\
+	If we compare results for those two ORF we can say that prediction for ORF1 is much more reliable because we can be almost certain shape of most of a structure.
 \end{document}
